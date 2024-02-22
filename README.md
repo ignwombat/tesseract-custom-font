@@ -3,7 +3,7 @@ This repo is heavily inspired by Gabriel Garcia's [Tesseract Tutorial](https://g
 
 I recreated it to get a better understanding of how tesstrain works. I've also included [training.sh](./training.sh) to help with the training.
 
-When creating this project, I trained a model to recognize the Minecraft font, on top of the English one, hence why the `MODEL_NAME` in [training.sh](./training.sh) is `mc`.
+When creating this project, I trained a model to recognize the [Minecraft font](https://github.com/IdreesInc/Minecraft-Font), on top of the English one, hence why the `MODEL_NAME` in [training.sh](./training.sh) is `mc`.
 
 ## Usage
 **Make sure you clone [tesseract](https://github.com/tesseract-ocr/tesseract) and [tesstrain](https://github.com/tesseract-ocr/tesstrain) before running the code**
